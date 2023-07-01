@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right top,#e4ffc9,#fdffec);
+    height: 100vh;
+}
+header{
+    display:flex;
+width: 90%;
+margin: auto;
+height: 20vh;
+}
+.logo,ul,.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    
+    flex: 1;
+
+}
+ul{
+    
+
+    flex: 2;
+}
+.icons{
+    
+    flex: 1;
+    gap: 30px;
+
+}
+.fa-solid{
+    font: size 20px;
+    color:rgb(77,77,77);
+}
+.login,.delivery,.dine{
+    padding:12px 30px;
+    border-radius:50px;
+    border:none;
+    color:black;
+    background-color: #84b74d;
+    font: size 18px;
+
+}
+.login,.delivery:hover{
+    background-color:#6d8d4c;
+
+}
+section{
+    
+display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+
+}
+.items img{
+    height:35vh;
+
+}
+.content{
+    
+    flex:1;
+    margin: left 100px;
+}
+.items{
+    
+    flex:2;
+}
+li{
+    list-style: none;
+    margin: 35px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.active{
+    color: #84b74d;
+
+}
+a:hover{
+    color: #84b74d;
+}
+.logo{
+    font-family:'Lemon',cursive;
+    font-size: 40px;
+    color:white;
+    position: relative;
+}
+.logo::before{
+    content:"" ;
+    background-color: #e4d315;
+    width: 70px;
+    height: 70px;
+    border-radius: 80%;
+    position:absolute;
+    z-index:-1;
+}
+.logo::after{
+    content:"Foodition";
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(0%,-50%);
+}
+h2{
+    font-size:30px;
+    font-family:'Lemon',cursive;
+    margin: bottom 20px;;
+}
+h1{
+    font-size:60px;
+    font-family:'Lemon',cursive;
+    margin: bottom 20px;;
+}
+span{
+    color: #84b74d;
+}
+p{
+    font: size 18px;
+    color:#efefef;
+    line-height:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: bottom 20px;
+}
+.dine{
+    border:2px solid black;
+    background-color:transparent;
+    color:black;
+}
+.dine:hover{
+    background-color:#d8de9f;
+
+}
+.buttons{
+    display: flex;
+    gap:20px;
+}
+.items{
+    
+    font-size:18px;
+    font-family:'Lemon',cursive; 
+    margin:bottom 20px ;
+}
+.item img:hover{
+    transform: scale(1.04);
+
+}
+.item h4{
+    padding:5px;
+    text-align: center;
+}
+.item button{
+    padding:5px,30px;
+    border: 50%;
+    outline:1px;
+    background-color: #84b74d;
+    cursor:pointer;
+    border-radius:10px;
+    text-align: center;
+}
+.item h3{
+    padding:5px;
+    text-align: center;
+}
+.item button:hover{
+    color:greenyellow;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px,15%;
+    background:#84b74d;
+    color:black;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding:10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color:#d8de9f;
+}
